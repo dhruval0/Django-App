@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Bhardwaj</title>
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="images/icon22.png">
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/navold.css" />
+	<link rel="stylesheet" type="text/css" href="css/footer.css" />
+	<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+	<script src="./js/script.js" defer></script>
+
+</head>
+
+<body>
+	<section id="main">
+		<nav>
+			<a href="#main"><img src="./images/icon22.png" class="logo"></img></a>
+			<div class="toggle"></div>
+
+			<ul class="menu">
+				<li><a href="#main">Home</a></li>
+				<!-- <li><a href="#about">About</a></li> -->
+				<li><a href="#services">Services</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#contact-form">Contact</a></li>
+			</ul>
+			<!--language-->
+			<!-- <a href="#" class="lang"">En</a> -->
+		</nav>
+
+		<div class=" name">
+			<p class="greetings">
+				<script src="./js/greet.js"></script>
+			</p>
+			<h1>I'm <font color="#17d1ac">Bhardwaj</font> Thummar</h1>
+			<h2>.
+				<span class="txt-type" data-wait="3000" data-words='["Web Developer","Designer","Creator"]'> </span>
+			</h2>
+		</div>
+		<!--DOWN ARROW-------------->
+		<div class="black-line"></div>
+		<div class="social">
+			<a href="https://twitter.com/BhardwajThumber" target="_blank"><i class="fab fa-twitter"></i></a>
+			<a href="https://www.quora.com/profile/Bhardwaj-Thumbar" target="_blank"><i class="fab fa-quora"></i></a>
+			<a href="https://github.com/BhardwajThummar" target="_blank"><i class="fab fa-github"></i></a>
+		</div>
+	</section>
+
+	<!-- <section id="about">
+		<div class="about-text">
+			<h1>About Me</h1>
+			<h2>FreeLancing FrontEnd Developer</h2>
+			<p>I can make beautiful websites with responsiveness and scalability. For any type of business I can
+				make gorgeous looking website that people wont stop looking!.</p>
+		</div>
+		 <div class="about-model">
+			<img src="images/about-model.png" width="50%" alt="model" />
+		</div> 
+	</section> -->
+
+	<section id="services">
+		<div class="s-heading">
+			<h1>Services</h1>
+		</div>
+		<div class="b-container">
+			<div class="s-box">
+				<div class="s-b-img">
+					<div class="s-type">Front-End</div>
+					<img src="images/20944986.jpg">
+				</div>
+				<div class="s-b-text">
+					<a>
+						HTML/CSS SASS Bootstrap
+						Learning => React.JS
+					</a>
+				</div>
+			</div>
+			<div class="s-box">
+				<div class="s-b-img">
+					<div class="s-type">Back-End</div>
+					<img src="images/3588964.jpg">
+				</div>
+				<div class="s-b-text">
+					<a> Learning =>JavaScript , NODE</a>
+				</div>
+			</div>
+			<div class="s-box">
+				<div class="s-b-img">
+					<div class="s-type">SEO</div>
+					<img src="images/11000.jpg">
+				</div>
+				<div class="s-b-text">
+					<a>SEO in google, bing, yandex etc.</a>
+				</div>
+			</div>
+			<div class="s-box">
+				<div class="s-b-img">
+					<div class="s-type">Other</div>
+					<img src="images/19362653.jpg">
+				</div>
+				<div class="s-b-text">
+					<a>Web Designing in Figma. WordPress. Fluent in English etc.</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="portfolio">
+		<div class="p-heading">
+			<h1>Portfolio</h1>
+		</div>
+		<div class="p-container">
+			<div class="p-box">
+				<a href="https://music.orangersweb.com/" target="_blank">
+					<div class="overlay-text">
+						<h1>Music Player</h1>
+						<p>Personal Project</p>
+						<p>Click To Visit</p>
+					</div>
+				</a>
+				<img src="images/Music.png">
+			</div>
+			<div class="p-box">
+				<a href="#main">
+					<div class="overlay-text">
+						<h1>Personal Portfolio</h1>
+						<p>This Website</p>
+					</div>
+				</a>
+				<img src="images/portfolio.png">
+			</div>
+
+
+
+		</div>
+	</section>
+	<section id="contact-btn">
+		<a href="https://www.upwork.com/freelancers/~01a844852f3b9fa533" target="_blank" class="button2">
+			Hire Me On Upwork
+		</a>
+	</section>
+	<section id="contact-form">
+		<form action="POST" data-netlify="true">
+			<div class="contact-left">
+				<h1 class="c-l-heading">
+					<font style="border-bottom: 3px solid #1ED98B;">Write</font> Me
+				</h1>
+				<div class="f-name">
+					<font>Name</font>
+					<input type="text" name="name" placeholder="Full Name" />
+				</div>
+				<div class="f-email">
+					<font>Email</font>
+					<input type="email" name="email" placeholder="Example@gmail.com" />
+				</div>
+			</div>
+			<div class="contact-right">
+				<div class="message">
+					<font>Message</font>
+					<textarea name="message" name="message" rows="5" cols="20"
+						placeholder="Write Message..."></textarea>
+				</div>
+				<div class="field">
+					<div data-netlify-recaptcha="true"></div>
+				</div>
+
+				<button>submit</button>
+			</div>
+		</form>
+
+
+
+	</section>
+</body>
+
+<footer class="footer">
+
+
+	<div class="container container-footer">
+
+		<a class="branding-footer" href="#main">
+			<span class="brandname-footer">Bhardwaj</span>
+		</a>
+
+		<div class="contact-social">
+			<a class="cont-icon cont-github" href="https://github.com/BhardwajThummar" target="_blank"><i
+					class="fa fa-github"></i></a>
+
+			<a class="cont-icon cont-twitter" href="https://twitter.com/BhardwajThumber" target="_blank"><i
+					class="fa fa-twitter"></i></a>
+
+		</div>
+
+		<div class="credit">
+			<p class="credit-p"> Coded <i class="fa fa-code"></i> By Bhardwaj</p>
+		</div>
+
+	</div>
+</footer>
+
+</html>
